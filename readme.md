@@ -10,14 +10,14 @@
 - **Supports multiple VPN protocols** (WireGuard, OpenVPN, and more in future versions).
 - **Open-source and extensible**.
 
-## Index
-- [Supported Systems](#-supported-systems)
-- [Installation](#-installation)
+## 📌 **Index**
+- [Supported Systems](#🚀-supported-systems)
+- [Installation](#🛠-installation)
   - [macOS](#macos)
-- [Usage](#-usage)
-- [How does it work?](#-how-does-it-work)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Usage](#⚡-usage)
+- [How does it work?](#🛡-how-does-it-work)
+- [Contributing](#📢-contributing)
+- [License](#📜-license)
 ---
 
 ## 🚀 Supported Systems 
@@ -34,7 +34,7 @@
 ### macOS
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/easy-killswitch.git
+   git clone https://github.com/jcordon5/easy-killswitch.git
    cd easy-killswitch
    ```
 2. Run the installer:
@@ -71,7 +71,9 @@ If your VPN provider supports **IKEv2**, you can manually add it to macOS so it 
    - If required, upload your **certificate**.  
 
 3️⃣ **Now `scutil --nc list` will detect your VPN!** 
+
    Run:
+
    ```bash
    scutil --nc list
    scutil --nc status "YourVPNName"
